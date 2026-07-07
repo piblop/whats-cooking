@@ -1,0 +1,162 @@
+// Dish photos from Wikimedia Commons (hotlinked thumbnails).
+// Regenerate with: node fetch_photos.mjs > photos.json, then rebuild this file.
+// Each entry links back to the Commons file page for attribution.
+
+export const PHOTOS = {
+  "spag-bol": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Spaghetti_Bolognese_-_Figaros%2C_Brighton_2023-10-06.jpg/960px-Spaghetti_Bolognese_-_Figaros%2C_Brighton_2023-10-06.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spaghetti_Bolognese_-_Figaros,_Brighton_2023-10-06.jpg"
+  },
+  "chicken-stirfry": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Kai_phat_khing.jpg/960px-Kai_phat_khing.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kai_phat_khing.jpg"
+  },
+  "fried-rice": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Fried_rice_with_chicken_and_egg.jpg/960px-Fried_rice_with_chicken_and_egg.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fried_rice_with_chicken_and_egg.jpg"
+  },
+  "butter-chicken": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Butter_Chicken%2C_City_Grill_Kottayam.jpg/960px-Butter_Chicken%2C_City_Grill_Kottayam.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Butter_Chicken,_City_Grill_Kottayam.jpg"
+  },
+  "thai-green-curry": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Thai_green_chicken_curry_and_roti.jpg/960px-Thai_green_chicken_curry_and_roti.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Thai_green_chicken_curry_and_roti.jpg"
+  },
+  "salmon-tray": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Liat_Portal_for_Foodie_Disorder_-_Oven-baked_teriyaki_salmon_with_vegetables.jpg/960px-Liat_Portal_for_Foodie_Disorder_-_Oven-baked_teriyaki_salmon_with_vegetables.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Oven-baked_teriyaki_salmon_with_vegetables.jpg"
+  },
+  "tacos": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/960px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg"
+  },
+  "carbonara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/960px-Espaguetis_carbonara.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg"
+  },
+  "chickpea-curry": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chana_Masala_in_Paul%C3%ADnia%2C_2023-10-16.jpg/960px-Chana_Masala_in_Paul%C3%ADnia%2C_2023-10-16.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chana_Masala_in_Paul%C3%ADnia,_2023-10-16.jpg"
+  },
+  "stir-fry-noodles": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Prawn_Stir_Fry_Egg_Noodles_with_Dark_Soy_sauce_-_Tookta%27s_Thai_Food.jpg/960px-Prawn_Stir_Fry_Egg_Noodles_with_Dark_Soy_sauce_-_Tookta%27s_Thai_Food.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Prawn_Stir_Fry_Egg_Noodles_with_Dark_Soy_sauce_-_Tookta%27s_Thai_Food.jpg"
+  },
+  "roast-chicken": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/02023_0151_Roasted_Chicken_and_Potatoes.jpg/960px-02023_0151_Roasted_Chicken_and_Potatoes.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:02023_0151_Roasted_Chicken_and_Potatoes.jpg"
+  },
+  "shakshuka": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Shakshuka_by_Calliopejen1.jpg/960px-Shakshuka_by_Calliopejen1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shakshuka_by_Calliopejen1.jpg"
+  },
+  "pumpkin-soup": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pumpkin_soup_with_groundnuts_and_nutritious_spices_served_in_a_clay_pot.jpg/960px-Pumpkin_soup_with_groundnuts_and_nutritious_spices_served_in_a_clay_pot.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pumpkin_soup_with_groundnuts_and_nutritious_spices_served_in_a_clay_pot.jpg"
+  },
+  "fish-tacos": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/960px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg"
+  },
+  "pad-thai-ish": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Hokkien_noodles_with_peanut_sauce_-_Massachusetts.jpg/960px-Hokkien_noodles_with_peanut_sauce_-_Massachusetts.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hokkien_noodles_with_peanut_sauce_-_Massachusetts.jpg"
+  },
+  "greek-salad-bowl": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/A_packed_meal_of_Greek_Salad_with_chicken.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_packed_meal_of_Greek_Salad_with_chicken.jpg"
+  },
+  "mushroom-risotto": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mushroom_Risotto_%284789415965%29.jpg/960px-Mushroom_Risotto_%284789415965%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mushroom_Risotto_(4789415965).jpg"
+  },
+  "burgers": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cheeseburger_with_homemade_honey_mustard.jpg/960px-Cheeseburger_with_homemade_honey_mustard.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheeseburger_with_homemade_honey_mustard.jpg"
+  },
+  "lentil-soup": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg/960px-Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg"
+  },
+  "pancakes": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg/960px-Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg"
+  },
+  "banana-bread": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Banana_bread_in_loaf_pan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Banana_bread_in_loaf_pan.jpg"
+  },
+  "choc-mug-cake": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Chocolate_Mug_Cake_%28KETO%2C_LCHF%2C_Low_Carb%2C_Gluten_free%2C_FIT%29.jpg/960px-Chocolate_Mug_Cake_%28KETO%2C_LCHF%2C_Low_Carb%2C_Gluten_free%2C_FIT%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_Mug_Cake_(KETO,_LCHF,_Low_Carb,_Gluten_free,_FIT).jpg"
+  },
+  "steak-night": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Steak_with_mashed_potatoes_and_caramelised_onions.jpg/960px-Steak_with_mashed_potatoes_and_caramelised_onions.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Steak_with_mashed_potatoes_and_caramelised_onions.jpg"
+  },
+  "tomato-pasta": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Spaghetti_with_a_minimalist_heirloom_tomato_and_basil_sauce.jpg/960px-Spaghetti_with_a_minimalist_heirloom_tomato_and_basil_sauce.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spaghetti_with_a_minimalist_heirloom_tomato_and_basil_sauce.jpg"
+  },
+  "chicken-soup": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chicken_with_Noodles_Soup_-_Noodles_Soup_2023-10-24.jpg/960px-Chicken_with_Noodles_Soup_-_Noodles_Soup_2023-10-24.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_with_Noodles_Soup_-_Noodles_Soup_2023-10-24.jpg"
+  },
+  "quesadillas": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/At_Long_Island_2023_267.jpg/960px-At_Long_Island_2023_267.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:At_Long_Island_2023_267.jpg"
+  },
+  "buddha-bowl": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tasty_Buddha_Bowl_with_Falafel_-_Dyke_Road_Park_Cafe_2025-05-09.jpg/960px-Tasty_Buddha_Bowl_with_Falafel_-_Dyke_Road_Park_Cafe_2025-05-09.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tasty_Buddha_Bowl_with_Falafel_-_Dyke_Road_Park_Cafe_2025-05-09.jpg"
+  },
+  "omelette": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Mushroom_Omelette_-_Breakfast_At_Tiffany%27s_Brighton.jpg/960px-Mushroom_Omelette_-_Breakfast_At_Tiffany%27s_Brighton.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mushroom_Omelette_-_Breakfast_At_Tiffany%27s_Brighton.jpg"
+  },
+  "san-choy-bow": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Thai_style_minced_pork_with_lettuce_wrap.jpg/960px-Thai_style_minced_pork_with_lettuce_wrap.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Thai_style_minced_pork_with_lettuce_wrap.jpg"
+  },
+  "frittata": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Ejjeh.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ejjeh.jpg"
+  },
+  "laksa-ish": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Mixed_Vegetables_with_Singapore_Laksa_Noodles_Soup_-_Noodles_Soup%2C_Brighton.jpg/960px-Mixed_Vegetables_with_Singapore_Laksa_Noodles_Soup_-_Noodles_Soup%2C_Brighton.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mixed_Vegetables_with_Singapore_Laksa_Noodles_Soup_-_Noodles_Soup,_Brighton.jpg"
+  },
+  "cottage-pie": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Shepherd%27s_pie_%2822470901009%29.jpg/960px-Shepherd%27s_pie_%2822470901009%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shepherd%27s_pie_(22470901009).jpg"
+  },
+  "halloumi-salad": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Fruit_Salad_with_Grilled_Halloumi_Cheese.jpg/960px-Fruit_Salad_with_Grilled_Halloumi_Cheese.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fruit_Salad_with_Grilled_Halloumi_Cheese.jpg"
+  },
+  "garlic-bread-soup-night": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Grilled_four-cheese_on_Jesus_bread_sandwich_with_garlic-tomato_soup.jpg/960px-Grilled_four-cheese_on_Jesus_bread_sandwich_with_garlic-tomato_soup.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_four-cheese_on_Jesus_bread_sandwich_with_garlic-tomato_soup.jpg"
+  },
+  "teriyaki-bowl": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bowl_of_Teriyaki_chicken_and_beef_YakinikuCNE.jpg/960px-Bowl_of_Teriyaki_chicken_and_beef_YakinikuCNE.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bowl_of_Teriyaki_chicken_and_beef_YakinikuCNE.jpg"
+  },
+  "eggplant-parm": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Melanzane_alla_Parmigiana.jpg/960px-Melanzane_alla_Parmigiana.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Melanzane_alla_Parmigiana.jpg"
+  },
+  "nachos": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Nachos-cheese_%28cropped%29.jpg/960px-Nachos-cheese_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nachos-cheese_(cropped).jpg"
+  },
+  "oat-brekkie": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Banana_oatmeal_2.jpg/960px-Banana_oatmeal_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Banana_oatmeal_2.jpg"
+  },
+  "tofu-stirfry": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Stir-fry_spinach_with_tofu_-_Golden_white_jade_and_Green_Parrot_%28%E8%8F%A0%E8%8F%9C%E7%82%92%E8%B1%86%E8%85%90_-_%E9%87%91%E9%91%B2%E7%99%BD%E7%8E%89%E6%9D%BF%EF%BC%8C%E7%B4%85%E5%98%B4%E7%B6%A0%E9%B8%9A%E5%93%A5%29%282%29.jpg/960px-Stir-fry_spinach_with_tofu_-_Golden_white_jade_and_Green_Parrot_%28%E8%8F%A0%E8%8F%9C%E7%82%92%E8%B1%86%E8%85%90_-_%E9%87%91%E9%91%B2%E7%99%BD%E7%8E%89%E6%9D%BF%EF%BC%8C%E7%B4%85%E5%98%B4%E7%B6%A0%E9%B8%9A%E5%93%A5%29%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stir-fry_spinach_with_tofu_-_Golden_white_jade_and_Green_Parrot_(%E8%8F%A0%E8%8F%9C%E7%82%92%E8%B1%86%E8%85%90_-_%E9%87%91%E9%91%B2%E7%99%BD%E7%8E%89%E6%9D%BF%EF%BC%8C%E7%B4%85%E5%98%B4%E7%B6%A0%E9%B8%9A%E5%93%A5)(2).jpg"
+  }
+};

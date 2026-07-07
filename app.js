@@ -1,4 +1,5 @@
 import { RECIPES, MOODS, INGREDIENT_GROUPS, ALIASES, CUISINE_STYLES } from './data.js';
+import { PHOTOS } from './photos.js';
 
 // ---------- state (immutable updates) ----------
 
@@ -210,11 +211,35 @@ function matchBadge(s) {
   );
 }
 
+function photoBanner(recipe) {
+  const photo = PHOTOS[recipe.id];
+  if (!photo?.url) return null;
+  const img = el('img', {
+    class: 'card__photo',
+    src: photo.url,
+    alt: recipe.name,
+    loading: 'lazy',
+    onerror: (e) => e.target.closest('a').remove(),
+  });
+  return el(
+    'a',
+    {
+      class: 'card__photo-link',
+      href: photo.page,
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      title: 'Photo: Wikimedia Commons (click for credit)',
+    },
+    img
+  );
+}
+
 function recipeCard(s) {
   const r = s.recipe;
   return el(
     'article',
     { class: 'card' },
+    photoBanner(r),
     el(
       'header',
       { class: 'card__head' },
