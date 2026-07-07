@@ -228,6 +228,23 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; margin: 0; }
 .card__meta { color: var(--muted); font-size: 0.82rem; margin: 0.15rem 0 0; }
 .card__blurb { margin: 0; font-size: 0.9rem; color: #55504a; }
 
+.stars { display: flex; align-items: center; gap: 0.1rem; }
+.star {
+  background: none;
+  border: none;
+  padding: 0 0.1rem;
+  font-size: 1.15rem;
+  line-height: 1;
+  color: #cfc7b8;
+  cursor: pointer;
+  transition: transform 0.1s ease, color 0.1s ease;
+}
+.star:hover { transform: scale(1.2); color: var(--amber); }
+.star.is-on { color: var(--amber); }
+.stars__label { margin-left: 0.45rem; font-size: 0.75rem; color: var(--amber); font-weight: 600; }
+.stars__label--hint { color: var(--muted); font-weight: 400; opacity: 0; transition: opacity 0.15s; }
+.stars:hover .stars__label--hint { opacity: 1; }
+
 .match { display: flex; align-items: center; gap: 0.6rem; }
 .match__bar {
   flex: 1;

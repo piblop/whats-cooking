@@ -16,6 +16,35 @@ function setState(patch) {
   render();
 }
 
+// ---------- ratings (persisted per-browser) ----------
+
+const RATINGS_KEY = 'wc-ratings';
+
+function loadRatings() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(RATINGS_KEY) ?? '{}');
+    return typeof parsed === 'object' && parsed !== null ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+let ratings = loadRatings();
+
+function setRating(id, value) {
+  // clicking the current rating clears it
+  const next = { ...ratings };
+  if (next[id] === value) delete next[id];
+  else next[id] = value;
+  ratings = next;
+  try {
+    localStorage.setItem(RATINGS_KEY, JSON.stringify(ratings));
+  } catch {
+    // storage unavailable (private mode) — rating still applies this session
+  }
+  render();
+}
+
 // ---------- ingredient normalisation ----------
 
 const KNOWN = new Set([
@@ -64,8 +93,8 @@ function scoreRecipe(recipe) {
     missing,
     optionalMatched,
     coverage,
-    // coverage dominates; optional matches and mood alignment break ties
-    score: coverage * 100 + optionalMatched.length * 3 + moodBonus * 10,
+    // coverage dominates; optional matches, mood alignment and your rating break ties
+    score: coverage * 100 + optionalMatched.length * 3 + moodBonus * 10 + (ratings[recipe.id] ?? 0) * 2,
   };
 }
 
@@ -234,6 +263,29 @@ function photoBanner(recipe) {
   );
 }
 
+function starRow(recipe) {
+  const current = ratings[recipe.id] ?? 0;
+  return el(
+    'div',
+    { class: 'stars', role: 'group', 'aria-label': `Rate ${recipe.name}` },
+    [1, 2, 3, 4, 5].map((n) =>
+      el(
+        'button',
+        {
+          class: `star${n <= current ? ' is-on' : ''}`,
+          title: `${n} star${n > 1 ? 's' : ''}`,
+          'aria-label': `Rate ${n} of 5`,
+          onclick: () => setRating(recipe.id, n),
+        },
+        n <= current ? '★' : '☆'
+      )
+    ),
+    current
+      ? el('span', { class: 'stars__label' }, `your rating`)
+      : el('span', { class: 'stars__label stars__label--hint' }, 'rate it')
+  );
+}
+
 function recipeCard(s) {
   const r = s.recipe;
   return el(
@@ -252,6 +304,7 @@ function recipeCard(s) {
       )
     ),
     el('p', { class: 'card__blurb' }, r.blurb),
+    starRow(r),
     matchBadge(s),
     el(
       'div',
