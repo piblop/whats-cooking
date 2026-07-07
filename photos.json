@@ -154,5 +154,85 @@
   "tofu-stirfry": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Stir-fry_spinach_with_tofu_-_Golden_white_jade_and_Green_Parrot_%28%E8%8F%A0%E8%8F%9C%E7%82%92%E8%B1%86%E8%85%90_-_%E9%87%91%E9%91%B2%E7%99%BD%E7%8E%89%E6%9D%BF%EF%BC%8C%E7%B4%85%E5%98%B4%E7%B6%A0%E9%B8%9A%E5%93%A5%29%282%29.jpg/960px-Stir-fry_spinach_with_tofu_-_Golden_white_jade_and_Green_Parrot_%28%E8%8F%A0%E8%8F%9C%E7%82%92%E8%B1%86%E8%85%90_-_%E9%87%91%E9%91%B2%E7%99%BD%E7%8E%89%E6%9D%BF%EF%BC%8C%E7%B4%85%E5%98%B4%E7%B6%A0%E9%B8%9A%E5%93%A5%29%282%29.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Stir-fry_spinach_with_tofu_-_Golden_white_jade_and_Green_Parrot_(%E8%8F%A0%E8%8F%9C%E7%82%92%E8%B1%86%E8%85%90_-_%E9%87%91%E9%91%B2%E7%99%BD%E7%8E%89%E6%9D%BF%EF%BC%8C%E7%B4%85%E5%98%B4%E7%B6%A0%E9%B8%9A%E5%93%A5)(2).jpg"
+  },
+  "chicken-parmi": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Chicken_parmigiana.jpg/960px-Chicken_parmigiana.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_parmigiana.jpg"
+  },
+  "lasagna": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Baked_cheese_meat_sauce_lasagna_in_dinner.jpg/960px-Baked_cheese_meat_sauce_lasagna_in_dinner.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Baked_cheese_meat_sauce_lasagna_in_dinner.jpg"
+  },
+  "mac-cheese": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Baked_macaroni_and_cheese_-_Rocky_%26_Carlo%27s.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Baked_macaroni_and_cheese_-_Rocky_%26_Carlo%27s.jpg"
+  },
+  "pad-thai": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/960px-Phat_Thai_kung_Chang_Khien_street_stall.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Phat_Thai_kung_Chang_Khien_street_stall.jpg"
+  },
+  "chicken-alfredo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chicken_fettuccine_alfredo.JPG/960px-Chicken_fettuccine_alfredo.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_fettuccine_alfredo.JPG"
+  },
+  "chilli-con-carne": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chili_con_carne_50_A.jpg/960px-Chili_con_carne_50_A.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chili_con_carne_50_A.jpg"
+  },
+  "beef-stroganoff": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Beef_stroganoff_with_pasta.jpg/960px-Beef_stroganoff_with_pasta.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Beef_stroganoff_with_pasta.jpg"
+  },
+  "chicken-satay": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sate_Ayam_dengan_kuah_saus_kacang_makanan_khas_Indonesia.jpg/960px-Sate_Ayam_dengan_kuah_saus_kacang_makanan_khas_Indonesia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sate_Ayam_dengan_kuah_saus_kacang_makanan_khas_Indonesia.jpg"
+  },
+  "margherita-pizza": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Margherita_Originale.JPG/960px-Margherita_Originale.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Margherita_Originale.JPG"
+  },
+  "chicken-fajitas": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Chicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg/960px-Chicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg"
+  },
+  "katsu-curry": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Chicken_katsu_curry_rice_-_Korpan.jpg/960px-Chicken_katsu_curry_rice_-_Korpan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_katsu_curry_rice_-_Korpan.jpg"
+  },
+  "chicken-ramen": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Free-photo-of-a-bowl-of-ramen-with-eggs-and-meat.jpg/960px-Free-photo-of-a-bowl-of-ramen-with-eggs-and-meat.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Free-photo-of-a-bowl-of-ramen-with-eggs-and-meat.jpg"
+  },
+  "caesar-salad": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Caesar_salad_%282%29.jpg/960px-Caesar_salad_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Caesar_salad_(2).jpg"
+  },
+  "french-toast": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/French_toast_001.jpg/960px-French_toast_001.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:French_toast_001.jpg"
+  },
+  "choc-chip-cookies": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/6cookies.JPG/960px-6cookies.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:6cookies.JPG"
+  },
+  "brownies": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chocolate_brownies_without_table.jpg/960px-Chocolate_brownies_without_table.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_brownies_without_table.jpg"
+  },
+  "apple-crumble": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/British_apple_crumble_05.jpg/960px-British_apple_crumble_05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:British_apple_crumble_05.jpg"
+  },
+  "beef-chow-mein": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Chinese_Chow_mein_noodles_in_Po_Toi.jpg/960px-Chinese_Chow_mein_noodles_in_Po_Toi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chinese_Chow_mein_noodles_in_Po_Toi.jpg"
+  },
+  "tuna-pasta-bake": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Tuna_Casserole2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tuna_Casserole2.jpg"
+  },
+  "burrito-bowl": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Burrito_rice_bowl.jpg/960px-Burrito_rice_bowl.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Burrito_rice_bowl.jpg"
   }
 }
