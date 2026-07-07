@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What's Cooking? — Recipe Suggestions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>🍳 What's Cooking?</h1>
+    <p>Tell me what's in your kitchen and how you're feeling — I'll suggest what to cook.</p>
+  </header>
+
+  <main class="layout">
+    <aside class="panel">
+      <section class="panel__section">
+        <h2>1 · Your ingredients</h2>
+        <form id="ingredient-form" class="ing-form">
+          <input
+            id="ingredient-input"
+            type="text"
+            placeholder="e.g. chicken, rice, garlic"
+            autocomplete="off"
+            aria-label="Add ingredients"
+          />
+          <button type="submit">Add</button>
+        </form>
+        <div id="pantry-chips" class="chip-row"></div>
+        <p id="pantry-empty" class="hint">Nothing added yet — type above or tap the quick-add list below.</p>
+        <button id="clear-pantry" class="link-btn" type="button">Clear all</button>
+      </section>
+
+      <section class="panel__section">
+        <h2>Quick add</h2>
+        <div id="quick-add"></div>
+      </section>
+    </aside>
+
+    <section class="content">
+      <section class="panel__section">
+        <h2>2 · What's the vibe?</h2>
+        <div id="mood-chips" class="chip-row"></div>
+      </section>
+
+      <section class="panel__section">
+        <h2>3 · Craving a style?</h2>
+        <div id="cuisine-chips" class="chip-row"></div>
+      </section>
+
+      <section class="toolbar">
+        <label class="toolbar__item">
+          ⏱️
+          <select id="time-filter" aria-label="Maximum cooking time">
+            <option value="">Any time</option>
+            <option value="15">15 min or less</option>
+            <option value="30">30 min or less</option>
+            <option value="45">45 min or less</option>
+            <option value="60">1 hour or less</option>
+          </select>
+        </label>
+        <input id="search" type="search" placeholder="Search recipes or cuisines…" aria-label="Search recipes" />
+        <button id="surprise" class="surprise" type="button">🎲 Surprise me</button>
+      </section>
+
+      <p id="result-count" class="result-count"></p>
+      <div id="results" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">Built for deciding dinner faster. Pantry staples (salt, pepper, oil) are assumed.</footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
